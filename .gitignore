@@ -11,6 +11,7 @@ build/
 # Ignore compiled JavaScript files
 *.js
 *.js.map
+!jest.config.js
 
 # Ignore compiled TypeScript declaration files
 *.d.ts

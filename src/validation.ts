@@ -13,5 +13,5 @@ export const schema = Joi.object<RequestBody>({
     )
     .required(),
   returnType: Joi.string().valid(...Object.values(ReturnType)),
-  timeoutMs: Joi.number().positive().optional()
+  timeoutMs: Joi.number().positive().max(20000).optional()
 });
