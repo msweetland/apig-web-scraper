@@ -34,9 +34,11 @@
     "@aws-sdk/client-lambda": "^3.665.0",
     "@sparticuz/chromium": "^129.0.0",
     "@types/node": "^22.7.4",
+    "@types/winston": "^2.4.4",
     "aws-cdk-lib": "^2.161.1",
     "constructs": "^10.3.0",
     "joi": "^17.13.3",
-    "puppeteer-core": "^23.5.0"
+    "puppeteer-core": "^23.5.0",
+    "winston": "^3.15.0"
   }
 }
